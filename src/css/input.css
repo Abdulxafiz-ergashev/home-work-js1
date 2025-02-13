@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Yellowtail;
+    src: url("../fonts/Yellowtail-Regular.ttf") format("woff2");
+  }
+
+
+@import "tailwindcss";
+
+
+
+@theme{
+    --color-primary:#274C5B;
+    --clor-laylo: #f00;
+    --font-yellowtail: Yellowtail, sans-serif;
+}
